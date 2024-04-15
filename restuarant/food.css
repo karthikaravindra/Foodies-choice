@@ -1,0 +1,224 @@
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image:url(media/chicken.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    min-width: 120px;
+    font-size: 1.5em;
+    
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.5em;
+    color:white;
+    justify-content: center;
+    min-width: 260px;
+}
+nav{
+    flex: 1;
+    display: flex;
+    align-items:center;
+    color:white;
+    height: 50px;
+    width: 400px;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color:red;
+}
+header h2 i,nav a i{
+    margin-right: 10px;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding: 20px;
+}
+.line1{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.line2{
+    color: whitesmoke;
+
+}
+.maintext div{
+    margin-top: 10px;
+}
+.maintext button{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: darkred;
+    color:whitesmoke;
+    border: 1px solid orangered;
+}
+.Menu{
+    display: grid;
+    grid-template-columns: 4;
+   background-color:rgb(218, 156, 94);
+    color:Black;
+    
+}
+ #menuheading,#locheading{
+    font-size: size 20px;
+    color:green;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(218, 156, 94);
+    align-items: center;
+}
+.Menu th{
+    color:red;
+    font-size: 1.8em;
+}
+
+
+.chats{
+    grid-row: 1/2;
+
+}
+
+
+
+table{
+    width:100%;
+    padding:1em;
+}
+
+.Menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top:.8em;
+}
+
+.Menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+
+.Menu td:nth-child(2){
+    justify-self: right;
+}
+
+.Maincourse{
+    grid-row:span 2;
+}
+
+.locations{
+    background-color:rgb(218, 156, 94);
+    color:black;
+    display:flex;
+    flex-wrap:wrap;
+    font-family:Arial, Helvetica, sans-serif ;
+    row-gap: 2em;
+}
+
+.locations h2{
+    color: red;
+    margin-bottom: .8em;
+}
+
+.locations div{
+    flex:1;
+    padding:0.5em;
+    min-width:220px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color:purple;
+    font-size: larger;
+}
+
+footer{
+    background-color: rgb(218, 156, 94);
+    color:blue;
+    padding:.25em 1em;
+}
+#copyright{
+    margin-left: 20px;
+}
+.social-menu ul{
+    display: flex;
+    padding: 0%;
+
+}
+.social-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.social-menu ul li .fa{
+    font-size: 25px;
+    line-height: 40px;
+    transition: 3s;
+    color:black;
+
+}
+.social-menu ul li .fa:hover{
+    color: white;
+
+}
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+/* .social-menu ul li  :hover{
+    transform:translate(0,-10);
+
+} */
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: blue;
+
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: crimson;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: cyan;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: red;
+}
+
+
+
